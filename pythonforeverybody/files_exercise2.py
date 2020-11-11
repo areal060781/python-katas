@@ -1,7 +1,10 @@
+from config import basedir
+
 file = input('Enter a file name: ')
+filename = basedir.joinpath('..', 'static', file)
 
 try:
-    handle = open(file)
+    handle = open(filename.absolute())
 except:
     print('File cannot be opened:', file)
     exit()
