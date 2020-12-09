@@ -1,8 +1,12 @@
-import unittest
+import pytest
+from hackerrank.bill_division import bonappetit
 
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(True, False)
+testdata = [
+    ([3, 10, 2, 9], 1, 12, 5),
+    ([3, 10, 2, 9], 1, 7, "Bon Appetit")
+]
 
-if __name__ == '__main__':
-    unittest.main()
+
+@pytest.mark.parametrize("bill,k,b,expected", testdata)
+def test_bon_appetit(bill, k, b, expected):
+    assert bonappetit(bill, k, b) == expected

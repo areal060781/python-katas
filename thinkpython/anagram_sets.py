@@ -84,9 +84,10 @@ def filter_length(d, n):
 
 if __name__ == '__main__':
     d = all_anagrams(basedir.joinpath('..', 'static', 'words.txt'))
+
     print_anagram_sets_in_order(d)
-
-    print()
-
-    eight_letters = filter_length(d, 8)
-    print_anagram_sets_in_order(eight_letters)
+    #
+    # print()
+    #
+    # eight_letters = filter_length(d, 8)
+    # print_anagram_sets_in_order(eight_letters)
