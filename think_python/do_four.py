@@ -20,7 +20,7 @@ argument.
 function four times, passing the value as a parameter. There should be only two statements in
 the body of this function, not four.
 
-Solution: http: // thinkpython. com/ code/ do_ four. py .'''
+Solution: http: // think_python. com/ code/ do_ four. py .'''
 
 
 def do_twice(f, v):

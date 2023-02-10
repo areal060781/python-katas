@@ -21,7 +21,7 @@ print '-'
 The output of these statements is '+ -' .
 A print statement all by itself ends the current line and goes to the next line.
 2. Write a function that draws a similar grid with four rows and four columns.
-Solution: http: // thinkpython. com/ code/ grid. py . Credit: This exercise is based on an
+Solution: http: // think_python. com/ code/ grid. py . Credit: This exercise is based on an
 exercise in Oualline, Practical C Programming, Third Edition, O’Reilly Media, 1997.'''
 
 

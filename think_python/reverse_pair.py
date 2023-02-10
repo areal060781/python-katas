@@ -1,5 +1,5 @@
 """Exercise 10.12. Two words are a “reverse pair” if each is the reverse of the other. Write a program
-that finds all the reverse pairs in the word list. Solution: http: // thinkpython. com/ code/
+that finds all the reverse pairs in the word list. Solution: http: // think_python. com/ code/
 reverse_ pair. py .
 
 """

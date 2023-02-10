@@ -1,6 +1,6 @@
 """Exercise 10.13. Two words “interlock” if taking alternating letters from each forms a new
 word. For example, “shoe” and “cold” interlock to form “schooled.” Solution: http: //
-thinkpython. com/ code/ interlock. py . Credit: This exercise is inspired by an example at
+think_python. com/ code/ interlock. py . Credit: This exercise is inspired by an example at
 http: // puzzlers. org .
 
 """
