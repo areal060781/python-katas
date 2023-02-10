@@ -105,6 +105,7 @@ cheeseshop("Limburger", "It's very runny, sir.",
            sketch="Cheese Shop Sketch")
 ```
 ## Special parameters
+```python
 # def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):
 #       -----------    ----------     ----------
 #         |             |                  |
@@ -114,7 +115,7 @@ cheeseshop("Limburger", "It's very runny, sir.",
 # where / and * are optional. If used, these symbols indicate the kind of parameter by how the
 # arguments may be passed to the function: positional-only, positional-or-keyword, and keyword-only.
 # Keyword parameters are also referred to as named parameters.
-
+```
 ## Lambda expressions
 ```python
 def make_incrementor(n):
