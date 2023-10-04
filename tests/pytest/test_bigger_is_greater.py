@@ -4,7 +4,7 @@ import json
 from config import basedir
 from hackerrank.bigger_is_greater import bigger_is_greater as big
 
-tc = basedir.joinpath('static', 'test_cases.json')
+tc = basedir.joinpath('../../static', 'test_cases.json')
 
 
 def load_tc_from_file(tc_params, tc_file):
