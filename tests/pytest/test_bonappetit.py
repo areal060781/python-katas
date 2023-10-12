@@ -1,5 +1,5 @@
 import pytest
-from katas import bonappetit
+from katas.bill_division import bonappetit
 
 testdata = [
     ([3, 10, 2, 9], 1, 12, 5),

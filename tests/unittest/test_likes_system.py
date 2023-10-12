@@ -1,5 +1,5 @@
 import unittest
-from katas import likes
+from katas.likes_system import likes
 
 
 class TestLikesSystem(unittest.TestCase):
