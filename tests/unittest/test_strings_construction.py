@@ -1,5 +1,5 @@
 import unittest
-from hackerrank.strings_construction import strings_construction
+from katas import strings_construction
 
 
 class TestStringsConstruction(unittest.TestCase):

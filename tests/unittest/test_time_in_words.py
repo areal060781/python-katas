@@ -1,5 +1,5 @@
 import unittest
-from hackerrank.time_in_words import time_in_words
+from katas import time_in_words
 
 
 class TestTimeInWords(unittest.TestCase):

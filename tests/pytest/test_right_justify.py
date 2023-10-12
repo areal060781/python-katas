@@ -1,4 +1,4 @@
-from think_python.right_justify import right_justify
+from katas.right_justify import right_justify
 
 
 def test_right_justify():

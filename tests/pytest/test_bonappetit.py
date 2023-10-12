@@ -1,5 +1,5 @@
 import pytest
-from hackerrank.bill_division import bonappetit
+from katas import bonappetit
 
 testdata = [
     ([3, 10, 2, 9], 1, 12, 5),

@@ -1,5 +1,5 @@
 import unittest
-from hackerrank.cut_the_sticks import cut_the_sticks
+from katas import cut_the_sticks
 
 
 class TestCutTheSticks(unittest.TestCase):

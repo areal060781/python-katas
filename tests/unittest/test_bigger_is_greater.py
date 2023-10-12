@@ -1,5 +1,5 @@
 import unittest
-from hackerrank.bigger_is_greater import bigger_is_greater2 as big
+from katas.bigger_is_greater import bigger_is_greater2 as big
 
 
 class TestBiggerIsGreater(unittest.TestCase):

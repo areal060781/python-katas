@@ -1,8 +1,7 @@
-import pytest
 import json
 
 from config import basedir
-from hackerrank.bigger_is_greater import bigger_is_greater as big
+from katas.bigger_is_greater import bigger_is_greater as big
 
 tc = basedir.joinpath('../../static', 'test_cases.json')
 

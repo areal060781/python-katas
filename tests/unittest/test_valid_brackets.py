@@ -1,5 +1,5 @@
 import unittest
-from hackerrank.valid_brackets import valid_bracket_sequence
+from katas import valid_bracket_sequence
 
 
 class TestValidBrackets(unittest.TestCase):

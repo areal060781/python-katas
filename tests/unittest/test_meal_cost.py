@@ -1,5 +1,5 @@
 import unittest
-from hackerrank.meal_cost import solve
+from katas import solve
 
 
 class TestMealCost(unittest.TestCase):

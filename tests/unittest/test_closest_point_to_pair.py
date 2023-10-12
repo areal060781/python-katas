@@ -1,6 +1,6 @@
 import unittest
 
-from hackerrank.closest_point_to_pair import closest_point_pair
+from katas.closest_point_to_pair import closest_point_pair
 
 
 class TestClosestPointToPair(unittest.TestCase):

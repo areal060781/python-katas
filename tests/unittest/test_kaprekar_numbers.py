@@ -1,5 +1,5 @@
 import unittest
-from hackerrank.kaprekar_numbers import kaprekar_numbers
+from katas.kaprekar_numbers import kaprekar_numbers
 
 
 class TestKaprekarNumbers(unittest.TestCase):
