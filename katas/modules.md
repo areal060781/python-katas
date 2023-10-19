@@ -6,17 +6,17 @@ This does not add the names of the functions defined in fibo directly to the cur
 namespace (see Python Scopes and Namespaces for more details); it only adds the module
 name fibo there. Using the module name you can access the functions:
 ```python
-import fibo
-fibo.fib2(125)
+import katas.fibonacci
+katas.fibonacci.fib2(125)
 
-from fibo import fib
+from katas.fibonacci import fib
 fib(500)
 
-from fibo import *
+from katas.fibonacci import *
 
-import fibo as fib
+import katas.fibonacci as fib
 
-from fibo import fib as fibonacci
+from katas import fibonacci as fibo
 ```
 # Packages
 Packages are a way of structuring Python’s module namespace by using “dotted module names”.
